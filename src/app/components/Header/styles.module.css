@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    color: #000;
+}
+
+.marginRight {
+    margin-right: 30px;
+}
+
+.header {
+    background: #DEBB10;
+    height: 165px;
+    width: 100%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    background: #000;
+    color: #fff;
+    width: 170px;
+    height: 75px;
+    border-radius: 8px;
+    opacity: 0px;
+    text-align: center;
+    line-height: 75px;
+}
