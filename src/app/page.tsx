@@ -1,20 +1,48 @@
+"use client";
 import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header/";
 import LinkBlock from "./components/LinkBlock";
 import ListCards from "./components/ListCards";
 import Title from "./components/Title";
+import { ICard } from "./interfaces/card";
 import styles from "./page.module.css";
 
+async function getData() {
+  const url = "http://localhost:3001/featured";
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const json = await response.json();
+    return json;
+  } catch (error: any) {
+    console.error(error.message);
+  }
+}
+
 export default function Home() {
+  const [cards, setCards] = useState<ICard[]>();
+  useEffect(() => {
+    async function fetchData() {
+      const response = await getData();
+      setCards(response);
+      return response;
+    }
+    fetchData();
+  }, []);
+
   return (
     <main className={styles.main}>
       <Header />
       <Title text="Disponíveis para Adoção" bold="500" />
       <Divider style={{ background: "#000", borderWidth: "4px" }} />
-      <ListCards />
+      {cards && <ListCards cards={cards} />}
       <section>
         <div className={styles["flex-horizontal"]}>
           <LinkBlock

@@ -1,30 +1,61 @@
-import Card from "@mui/material/Card";
+import { ICard } from "@/app/interfaces/card";
+import { Card } from "@mui/material";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import Image from "next/image";
 
-function CardChild() {
+function CardChild({
+  name,
+  donation_name,
+  pet_type,
+  address,
+  age,
+  image,
+}: ICard) {
   return (
     <Card sx={{ maxWidth: 275, marginTop: "10px" }}>
       <CardContent>
-        <Image
-          src="https://placehold.co/150x150/png"
-          width="243"
-          height="147"
-          alt="placeholder"
-        />
-        <Typography gutterBottom sx={{ color: "text.secondary", fontSize: 14 }}>
-          Nome do Pet
+        <Image src={image} width="243" height="147" alt="placeholder" />
+        <Typography
+          gutterBottom
+          sx={{
+            fontSize: "20px",
+            fontWeight: "bolder",
+          }}
+        >
+          {name}
         </Typography>
-        <Typography variant="h5" component="div">
-          Nome da ong ou do Doador
+        <Typography
+          variant="h5"
+          component="div"
+          sx={{
+            color: "text.secondary",
+            fontSize: "20px",
+          }}
+        >
+          {donation_name}
         </Typography>
-        <Typography sx={{ color: "text.secondary", mb: 1.5 }}>
-          sexo ou idade
+
+        <Typography sx={{ color: "text.secondary", mb: 1.5, fontSize: "20px" }}>
+          {`${age} anos`}
         </Typography>
-        <Typography variant="body2">tipo do pet</Typography>
-        <Typography sx={{ color: "text.secondary", mb: 1.5 }}>
-          cidade ou estado
+        {/* <Typography
+          sx={{
+            fontSize: "20px",
+          }}
+          variant="body2"
+        >
+          {pet_type}
+        </Typography> */}
+        <Typography
+          sx={{
+            color: "text.secondary",
+            mb: 1.5,
+            fontSize: "20px",
+            fontWeight: "bolder",
+          }}
+        >
+          {address}
         </Typography>
       </CardContent>
     </Card>

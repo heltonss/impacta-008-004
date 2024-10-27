@@ -4,11 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev & npm run server",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "server": "npx json-server db.json --port 3001"
   },
   "dependencies": {
     "-": "^0.0.1",
@@ -16,6 +17,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.16.6",
     "@mui/material": "^5.16.6",
+    "json-server": "^1.0.0-beta.3",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"

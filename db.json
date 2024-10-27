@@ -1,0 +1,186 @@
+{
+  "adoptionList": [
+    {
+      "id": "1",
+      "name": "Atila",
+      "donation_name": "Peter",
+      "pet_type": "DOG",
+      "age": 7,
+      "address": "casa verde - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "2",
+      "name": "Dog",
+      "donation_name": "Mad",
+      "pet_type": "CAT",
+      "age": 5,
+      "address": "santo amaro - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "3",
+      "name": "Max",
+      "donation_name": "Mad",
+      "pet_type": "CAT",
+      "age": 5,
+      "address": "osasco - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "4",
+      "name": "Lassie",
+      "donation_name": "Mad",
+      "pet_type": "CAT",
+      "age": 5,
+      "address": "carapicuiba - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "5",
+      "name": "Rex",
+      "donation_name": "Dog Heaven",
+      "pet_type": "DOG",
+      "age": 3,
+      "address": "são paulo - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "6",
+      "name": "Luna",
+      "donation_name": "Pet Amigos",
+      "pet_type": "CAT",
+      "age": 2,
+      "address": "guarulhos - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "7",
+      "name": "Bob",
+      "donation_name": "Pet Safe",
+      "pet_type": "DOG",
+      "age": 4,
+      "address": "osasco - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "8",
+      "name": "Mia",
+      "donation_name": "Adote com Amor",
+      "pet_type": "CAT",
+      "age": 1,
+      "address": "santos - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "9",
+      "name": "Spike",
+      "donation_name": "Proteção Animal",
+      "pet_type": "DOG",
+      "age": 5,
+      "address": "campinas - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "10",
+      "name": "Nina",
+      "donation_name": "Animal Friends",
+      "pet_type": "CAT",
+      "age": 3,
+      "address": "ribeirão preto - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "11",
+      "name": "Max",
+      "donation_name": "Love Pets",
+      "pet_type": "DOG",
+      "age": 2,
+      "address": "sorocaba - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "12",
+      "name": "Bella",
+      "donation_name": "Adote Aqui",
+      "pet_type": "CAT",
+      "age": 4,
+      "address": "barueri - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "13",
+      "name": "Thor",
+      "donation_name": "Patinhas Carentes",
+      "pet_type": "DOG",
+      "age": 3,
+      "address": "são bernardo do campo - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "14",
+      "name": "Jade",
+      "donation_name": "Cãotinho do Amor",
+      "pet_type": "CAT",
+      "age": 1,
+      "address": "jundiaí - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "15",
+      "name": "Buddy",
+      "donation_name": "Paws & Claws",
+      "pet_type": "DOG",
+      "age": 6,
+      "address": "piracicaba - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "16",
+      "name": "Simba",
+      "donation_name": "Adoção Segura",
+      "pet_type": "CAT",
+      "age": 5,
+      "address": "bauru - sp",
+      "image": "https://placedog.net/243/147?random"
+    }
+  ],
+  "featured": [
+    {
+      "id": "11",
+      "name": "Max",
+      "donation_name": "Love Pets",
+      "pet_type": "DOG",
+      "age": 2,
+      "address": "sorocaba - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "12",
+      "name": "Bella",
+      "donation_name": "Adote Aqui",
+      "pet_type": "CAT",
+      "age": 4,
+      "address": "barueri - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "13",
+      "name": "Thor",
+      "donation_name": "Patinhas Carentes",
+      "pet_type": "DOG",
+      "age": 3,
+      "address": "são bernardo do campo - sp",
+      "image": "https://placedog.net/243/147?random"
+    },
+    {
+      "id": "14",
+      "name": "Jade",
+      "donation_name": "Cãotinho do Amor",
+      "pet_type": "CAT",
+      "age": 1,
+      "address": "jundiaí - sp",
+      "image": "https://placedog.net/243/147?random"
+    }
+  ]
+}
