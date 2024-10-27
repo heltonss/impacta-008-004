@@ -3,8 +3,8 @@ import Typography from "@mui/material/Typography";
 import Image from "next/image";
 import Footer from "./components/Footer";
 import Header from "./components/Header/";
+import LinkBlock from "./components/LinkBlock";
 import ListCards from "./components/ListCards";
-import TextBlock from "./components/TextBlock";
 import Title from "./components/Title";
 import styles from "./page.module.css";
 
@@ -17,8 +17,16 @@ export default function Home() {
       <ListCards />
       <section>
         <div className={styles["flex-horizontal"]}>
-          <TextBlock text="Quero adotar" colorBox="#000000" />
-          <TextBlock text="Quero divulgar um animal" colorBox="#DEBB10" />
+          <LinkBlock
+            linkPath="lista-adocao"
+            text="Quero adotar"
+            colorBox="#000000"
+          />
+          <LinkBlock
+            linkPath="#"
+            text="Quero divulgar um animal"
+            colorBox="#DEBB10"
+          />
         </div>
         <div className={styles["flex-horizontal"]}>
           <Image

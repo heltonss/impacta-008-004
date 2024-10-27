@@ -1,19 +1,22 @@
+import Link from "next/link";
 import styles from "./styles.module.css";
 
 interface IOwnProps {
   text: string;
   colorBox: "#000000" | "#DEBB10";
+  linkPath: string;
 }
 
-function TextBlock({ text, colorBox }: IOwnProps) {
+function LinkBlock({ text, colorBox, linkPath }: IOwnProps) {
   return (
-    <div
+    <Link
+      href={linkPath}
       className={styles.container}
       style={{ backgroundColor: colorBox, color: "#fff", textAlign: "center" }}
     >
       {text}
-    </div>
+    </Link>
   );
 }
 
-export default TextBlock;
+export default LinkBlock;
